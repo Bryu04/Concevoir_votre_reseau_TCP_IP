@@ -380,3 +380,28 @@ Jusqu’à maintenant nous avons uniquement parlé d’un certain type d’adres
 
 Dans ce cours, nous nous limiterons cependant à IPv4 car ce type d’adresse continuera d’être utilisé dans les réseaux LAN. Les IPv6, elles, seront surtout nécessaires dans les réseaux WAN/MAN.
 
+Simulez une architecture grâce à Cisco Packet Tracer
+
+De retour dans votre entreprise, vous devez terminer la simulation d’architecture réseau pour votre client, M. Falman. Vous avez déjà configuré les adresses IP des 3 machines sur le réseau du client.
+
+Votre collègue est allé sur place pour faire un repérage. Il vous appelle pour vous indiquer les adresses des 2 postes du réseau de l’associé :
+
+  - 192.168.100.1/24
+
+  - 192.168.100.2/24
+
+À vous de jouer !
+
+  1. Configurez ces adresses sur les 2 postes restants.
+
+  2. Testez un envoi de paquet entre les 2 PC du réseau associé.
+
+  3. Testez un envoi de paquet entre le PC1 et le Serveur0.
+
+Corrigé
+Vous pouvez consulter le corrigé pour vérifier votre travail.
+
+Vous arrivez bien à envoyer un message depuis 192.168.100.1 vers 192.168.100.2.
+
+Par contre, quand vous essayez d’envoyer un message entre 192.168.100.1 et 192.168.0.1, cela ne fonctionne pas. C’est normal ! Ce sont 2 réseaux différents ; or, il y a un élément que nous n’avons pas encore configuré : le routeur.
+
