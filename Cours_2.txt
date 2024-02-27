@@ -405,3 +405,23 @@ Vous arrivez bien à envoyer un message depuis 192.168.100.1 vers 192.168.100.2.
 
 Par contre, quand vous essayez d’envoyer un message entre 192.168.100.1 et 192.168.0.1, cela ne fonctionne pas. C’est normal ! Ce sont 2 réseaux différents ; or, il y a un élément que nous n’avons pas encore configuré : le routeur.
 
+En résumé
+
+- L’adresse IP est nécessaire pour acheminer des messages entre des réseaux différents.
+
+- Une adresse IPv4 est écrite sur 32 bits, dont une partie sert à identifier le réseau et l’autre partie à 
+  identifier la machine.
+
+- L’adresse IP est toujours associée à un masque permettant de savoir où est la limite entre l’identifiant du 
+  réseau et l’identifiant de la machine.
+
+- L’IPv6 va peu à peu prendre le relais de l’IPv4, car il permet de créer beaucoup plus d’adresses, suffisamment 
+  pour toutes les machines connectés du monde.
+
+- Un plan d’adressage cohérent doit être élaboré lors de la création du réseau. Il permet de définir les adresses 
+  IP qui seront affectées aux machines, et leur nombre.
+
+Vous savez désormais adresser des machines dans un réseau ! Découvrez comment établir l’itinéraire des messages dans le chapitre suivant !
+
+#################################################################################################################
+
