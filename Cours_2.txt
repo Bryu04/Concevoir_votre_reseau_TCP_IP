@@ -108,3 +108,42 @@ Vous savez désormais identifier votre machine dans un réseau local. Passez au 
 
 #################################################################################################################
 
+Initiez la communication
+
+Envoyez des messages
+
+Dans le chapitre précédent, vous avez appris à identifier vos machines grâce à l’adresse MAC. Il vous faut désormais les faire communiquer. Communiquer, c’est échanger des messages. Ces messages s’appellent des paquets dans le monde des réseaux. 
+
+Pour vérifier que la communication fonctionne entre deux machines, vous allez donc générer un paquet sur la première machine, et l’envoyer sur la deuxième.
+
+Heuuuu... Et comment je fais concrètement ?
+
+Pas de panique ! Voyons cela sur Packet Tracer dans la vidéo ci-dessous :
+
+Simulez une communication sur votre réseau avec Packet Tracer
+
+Vous revoilà dans votre entreprise de conseil en réseaux d’entreprise. Après avoir longuement réfléchi à votre proposition précédente, votre client, M. Falman, accepte votre devis et vous demande de réaliser l’architecture que vous lui aviez proposé.
+
+Pour rappel, voilà à quoi ressemblait l'architecture complète, avec les machines de votre client à gauche et celles de son associé, l’entreprise Cyclade, à droite :
+
+Pour cette mission, votre manager vous propose de travailler en binôme avec un collègue plus expérimenté. Ce dernier a déjà réalisé de nombreux projets sur le terrain. Il vous propose de vous occuper de la partie configuration réseau, tandis que lui s’occupera de l’achat et de l’installation du matériel.
+
+Pour préparer au mieux cette intervention, vous décidez de tout simuler avec Packet Tracer. Vous aviez déjà réalisé toute l’architecture pour établir un devis au client. Il ne vous reste plus qu’à tester la communication entre les machines.
+
+Le client vous précise qu’il souhaite conserver ses adresses IP actuelles :
+
+  - 1.1.1.1 pour le serveur ;
+
+  - 1.1.1.2 pour le PC fixe ;
+
+  - 1.1.1.3 pour le PC portable.
+
+À cette étape, les adresses IP ne sont pas nécessaires pour l’acheminement des paquets, car le switch comprend uniquement les adresses MAC. Mais pour générer un paquet et donc tester la communication, les machines doivent obligatoirement avoir une adresse IP. Nous verrons dans le chapitre suivant de quoi il s’agit exactement.
+
+À vous de jouer !
+
+Affectez les adresses IP aux 3 machines du client et testez la communication.
+
+Vous devez générer un paquet sur le PC fixe vers le serveur, et vous assurer qu’il arrive à destination.
+
+
