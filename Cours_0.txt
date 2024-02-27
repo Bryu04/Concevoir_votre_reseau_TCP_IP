@@ -1,0 +1,53 @@
+Concevez votre réseau TCP/IP
+
+Ce cours est la version mise à jour de “Les réseaux de zéro”, le cours que vous recherchiez.
+
+Le streaming, les mails, le cloud. Je parie que vous avez déjà utilisé au moins un de ces services. D’après vous quel est leur point commun ? La réponse: Internet, tout simplement. Internet est un immense réseau qui relie des milliards de machines.
+
+Dans ce cours, vous allez apprendre à créer votre propre réseau informatique et à utiliser l'outil de simulation Cisco Packet Tracer. Vous découvrirez également les modèles OSI et TCP/IP, qui vous permettront de prendre du recul sur votre pratique.
+
+Si vous voulez comprendre les rouages des réseaux informatiques et d'Internet, n’hésitez plus et rejoignez-moi dans ce cours !
+
+Objectifs pédagogiques :
+
+À l’issue de ce cours, vous serez capable de :
+
+  - Créer l'architecture physique de votre réseau ;
+
+  - Configurer votre réseau pour assurer la communication ;
+
+  - Optimiser votre réseau en ajoutant des services.
+
+Prérequis :
+
+Vous êtes débutant en réseaux informatiques ? Ce cours s'adresse à vous ! Je vous conseille toutefois de suivre le cours Faites vos premiers pas dans le monde de l'électronique numérique pour vous familiariser avec le code binaire.
+
+Outil nécessaire : L'outil de simulation Cisco Packet Tracer
+
+Table des matières
+
+Partie 1 - Créez l’architecture physique de votre réseau
+   1. Tirez le meilleur de ce cours
+   2. Découvrez l’organisation d’un réseau
+   3. Découvrez l’outil de simulation Packet Tracer
+   4. Reliez deux machines entre elles
+   5. Connectez vos machines et votre réseau
+   Quiz : Créez l'architecture physique de votre réseau
+
+Partie 2 - Configurez votre réseau pour assurer la communication
+   1. Identifiez votre machine au sein d’un réseau local
+   2. Initiez la communication
+   3. Identifiez votre machine au sein de plusieurs réseaux
+   4. Configurez le routage de votre réseau
+   5. Indiquez une passerelle par défaut aux équipements terminaux
+   6. Prenez du recul sur votre pratique grâce au modèle OSI
+  Quiz : Configurez votre réseau pour assurer la communication
+
+Partie 3 - Optimisez votre réseau en ajoutant des services
+   1. Automatisez l’attribution d’adresses IP grâce au DHCP
+   2. Identifiez les avantages du serveur DNS
+   3. Déployez un serveur DNS sous Packet Tracer
+  Quiz : Optimisez votre réseau en ajoutant des services
+
+Certificat de réussite
+
