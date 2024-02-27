@@ -528,3 +528,15 @@ Corrigé
 Vous pouvez consulter le corrigé pour vérifier votre travail.
 
 Reliez deux réseaux entre eux
+
+Un an plus tard, Tinos auto-école vous sollicite une nouvelle fois pour une mission de conseil. L’espace de travail que l’entreprise loue est partagé entre plusieurs entreprises. Or, Cyclade, l’une des entreprises voisines, collabore régulièrement avec Tinos. Les deux entreprises ont besoin d'échanger des fichiers de plusieurs téraoctets.
+
+Le client veut donc une architecture réseau qui réponde à ses besoins.
+
+  - Ajoutez un réseau externe composé des 2 PC de l’entreprise Cyclade.
+
+  - Interconnectez ces 2 réseaux.
+
+Corrigé
+Vous pouvez consulter le corrigé pour vérifier votre travail.
+
