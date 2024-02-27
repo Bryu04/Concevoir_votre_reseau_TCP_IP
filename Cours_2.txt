@@ -366,3 +366,17 @@ Vous obtenez un équivalent de l’invite de commandes Windows qui vous permet d
 
  2. Testez la communication entre ces machines.
 
+Corrigé
+
+L’IP fournie étant 192.168.0.1/24, la partie réseau est sur 24 bits, ce qui laisse 8 bits d’IP attribuables aux machines.
+
+Vous pouviez donc choisir des adresses IP allant de 192.168.0.2/24 à 192.168.0.254/24
+
+Et pourquoi pas 192.168.0.255 ?
+
+Parce que 192.168.0.255 est l’adresse de broadcast, elle n’est donc pas attribuable, tout comme l’adresse 192.168.0.0 qui est l’adresse du réseau. N’oubliez pas : vous ne pouvez jamais attribuer la première et la dernière adresse d’une plage réseau.
+
+Jusqu’à maintenant nous avons uniquement parlé d’un certain type d’adresses IP : les adresses IPv4. Malheureusement, vu l’ampleur d’Internet, il n’est plus possible d’affecter des adresses IPv4 uniques à chaque machine connectée. Ces adresses vont peu à peu être remplacées par des adresses IPv6, qui, de par leur structure (128 bits au lieu de 32 bits) permettront d’adresser toutes les machines connectées du monde.
+
+Dans ce cours, nous nous limiterons cependant à IPv4 car ce type d’adresse continuera d’être utilisé dans les réseaux LAN. Les IPv6, elles, seront surtout nécessaires dans les réseaux WAN/MAN.
+
