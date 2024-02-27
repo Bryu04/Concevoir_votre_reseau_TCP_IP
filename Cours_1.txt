@@ -449,3 +449,74 @@ Vous avez raccordé les deux 2 machines de l’entreprise Tinos entre elles, bra
 
 #################################################################################################################
 
+Connectez vos machines et votre réseau
+
+Distinguez les équipements d’interconnexion
+
+Reprenons le schéma du tout premier réseau que je vous ai montré dans le premier chapitre :
+
+Nous avons déjà présenté les équipements terminaux et les différents supports de communication qui les relient. Reste à voir le cœur du réseau : les équipements d’interconnexion.
+
+Vous avez sans doute remarqué sur le schéma ci-dessus qu’il y en a 2 types :
+
+  - ceux qui permettent d’interconnecter les PC, imprimantes, serveurs… Ce sont les switchs ;
+
+  - ceux qui permettent de lier l’ensemble : les routeurs.
+
+Regardons tout cela de plus près !
+
+Identifiez les particularités du switch
+
+Le switch est le premier équipement d’interconnexion que vous rencontrerez dans un réseau, car il est au plus près des machines.
+
+Le switch est également appelé commutateur en français, mais le terme switch est largement plus démocratisé.
+
+Il va avoir le même rôle qu’un rond-point sur un réseau routier, ou plus précisément qu'un aiguillage sur un réseau ferré. En plus d’être une intersection entre plusieurs directions, il est capable d’orienter les messages dans la bonne direction. C’est vraiment l'élément de base pour relier plusieurs machines.
+
+Tous les switchs ne se valent pas en termes de caractéristiques, et ils se différencient principalement par :
+
+  - le nombre de ports allant de 4 à 96, permettant d’y connecter autant de machines ;
+
+  - le type de port : port RJ45 pour les câbles réseau standard, ou interface optique (type SFP+) pour la fibre 
+    optique. Ce sont les plus courants ;
+
+  - le débit possible sur chaque port : de 10 Mbp à 100 Gbp ;
+
+  - les fonctionnalités telles que l’interface de configuration, la compatibilité ou les modes de communication.
+
+Le switch est le grand frère du hub, ou concentrateur, en français. Un hub est un switch non intelligent, c’est-à-dire qu’il n’est pas capable de déterminer vers quelle direction (sur quel port), il doit envoyer un message. Il envoie alors le message sur tous ses ports en partant du principe que de cette manière, le message arrivera bien à destination.
+
+Cela pose des problèmes de sécurité et d’encombrement inutile du réseau, voilà pourquoi les hubs sont devenus très rares et ne conviennent pas à des réseaux d’entreprise. Les switchs et les hubs sont le cœur des réseaux locaux. En revanche, pour communiquer vers des réseaux nationaux ou internationaux, vous devrez utiliser un nouvel équipement : le routeur.
+
+Identifiez les particularités du routeur
+
+Le routeur est indispensable pour communiquer entre 2 réseaux. Il faut le voir comme le pont entre ces 2 réseaux, comme une passerelle entre deux mondes. On l’appelle d’ailleurs justement la “passerelle”. Pour reprendre l’analogie avec les réseaux routiers, on peut le voir comme une frontière, ou plus précisément un poste de douane entre 2 pays.
+
+Le routeur a 3 fonctions :
+
+  - il sépare 2 réseaux aux règles parfois différentes ;
+
+  - il décide quel message a le droit de passer ou non ;
+
+  - si besoin, il aiguille les messages dans la bonne direction, comme le switch.
+
+Comme pour le switch, vous choisirez votre routeur en fonction du nombre de ports dont il dispose, du type de ports, de son débit et de ses fonctionnalités.
+
+Donc en fait, le routeur c’est un peu comme un switch plus évolué ?
+
+Eh bien non, car le routeur n’est pas destiné à raccorder des équipements terminaux, mais à raccorder des réseaux entre eux. Contrairement au switch, il ne dispose que de très peu de ports (souvent 2 ou 3).
+
+Si vous disposez d’une connexion Internet, vous avez sans doute déjà un routeur chez vous. Hé oui, pour faire la passerelle entre votre réseau domestique et Internet, il vous faut obligatoirement un routeur : votre box Internet.
+
+Les box Internet sont des routeurs un peu particuliers qui intègrent aussi un switch, un décodeur TV, un serveur de stockage, et sans doute plein d’autres choses. Mais leur rôle initial est de permettre à vos messages de traverser les réseaux, et donc de vous fournir un accès à Internet.
+
+Créez 2 réseaux connectés entre eux
+
+Maintenant, vous allez pouvoir finaliser le projet de votre client, qui, je vous le rappelle, souhaitait que son PC et celui de son collaborateur soient tous les 2 raccordés au serveur de stockage.
+
+Mais avant cela, je vous conseille de visionner la vidéo ci-dessous pour savoir comment ajouter les équipements d’interconnexion à votre réseau.
+
+Lorsque l’on souhaite raccorder des équipement terminaux à des switchs, il faut utiliser des câbles droits, sinon les équipements n’arriveront pas à communiquer.
+
+À vous de jouer !
+
