@@ -1,0 +1,30 @@
+                              Créez l’architecture physique de votre réseau
+
+Tirez le meilleur de ce cours
+
+Concevez votre premier réseau informatique
+
+Bonjour, et bienvenue dans ce cours !
+
+Je m’appelle Damien, je suis ingénieur en réseaux et télécommunications et je vais vous accompagner dans la création de votre premier réseau.
+
+Tout au long de ce cours, vous serez mis dans un vrai contexte professionnel en vous glissant dans la peau d'un nouvel arrivant dans une entreprise spécialisée en conception de réseaux informatiques. Vous suivrez l’évolution du réseau de l'auto-école Tinos, qui vous demandera régulièrement conseil.
+
+Vous partirez d’un réseau simple, pour aboutir en fin de cours à une vraie architecture de petite entreprise. En ajoutant petit à petit des briques essentielles d’un réseau, vous allez acquérir les compétences de base pour créer un réseau informatique.
+
+Utilisez les différentes ressources de ce cours
+
+Pour tirer le meilleur de ce cours, je vous conseille de :
+
+ - visionner les vidéos en début de chapitre : elles vous permettront de comprendre les concepts clés qui y sont abordés ;
+
+ - suivre pas à pas les différentes étapes de cours ;
+
+ - vous appuyer sur les démonstrations vidéo dans lesquelles je partage mon écran ;
+
+ - réaliser les quiz à la fin de chaque partie pour évaluer vos connaissances.
+
+Alors, vous êtes prêt ? C'est parti !
+
+###################################################################################################################
+
