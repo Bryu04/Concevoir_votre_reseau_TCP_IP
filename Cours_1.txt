@@ -540,3 +540,21 @@ Le client veut donc une architecture réseau qui réponde à ses besoins.
 Corrigé
 Vous pouvez consulter le corrigé pour vérifier votre travail.
 
+En résumé
+
+- Pour raccorder plus de 2 machines entre elles, vous devez nécessairement intégrer des équipements d’interconnexion à votre réseau initial.
+
+- Il existe 2 types d’équipement d’interconnexion : les switchs et les routeurs.
+
+- Les switchs s’utilisent au sein d’un réseau local pour raccorder tous les équipements terminaux entre eux. 
+
+- Un seul switch peut interconnecter plusieurs dizaines de machines, tel un rond-point au carrefour de plusieurs 
+  destinations.
+
+- Pour raccorder un réseau local avec un autre réseau, vous devez intégrer un routeur. Il joue le rôle de 
+  passerelle entre différents réseaux. 
+
+Vous avez créé l'architecture physique de votre réseau : bravo ! :D Prochaine étape : configurer la communication au sein de votre réseau. Mais avant, je vous propose de tester vos connaissances avec un quiz !
+
+#################################################################################################################
+
