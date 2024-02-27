@@ -520,3 +520,11 @@ Lorsque l’on souhaite raccorder des équipement terminaux à des switchs, il f
 
 À vous de jouer !
 
+Reliez 3 machines entre elles
+
+Reprenez votre réseau précédent et apportez-y les modifications afin que toutes les machines soient interconnectées avec le minimum de câbles.
+
+Corrigé
+Vous pouvez consulter le corrigé pour vérifier votre travail.
+
+Reliez deux réseaux entre eux
