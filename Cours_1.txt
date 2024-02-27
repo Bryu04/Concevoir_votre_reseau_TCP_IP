@@ -373,3 +373,56 @@ Si vous optez pour les technologies sans fil, soyez vigilant ! La mobilité des 
 
 Créez un réseau simple entre 2 machines
 
+Vous voilà de retour dans votre ESN pour vous pencher sur la mission Tinos auto-école. Le client, M. Falman, souhaite transférer des données entre son ordinateur fixe et son serveur de stockage. Il ne dispose pour l’instant que de ces deux machines dans son local.
+
+Choisissez votre support de communication
+
+Vous n’avez qu’un seul support de communication à choisir puisqu’il n’y a qu’une seule liaison à réaliser : celle entre l’ordinateur du dirigeant et son serveur.
+
+Vous savez aussi que :
+
+   - Le serveur et l’ordinateur sont des machines fixes, situées dans la même pièce et séparées de quelques 
+     mètres.
+
+   - La contrainte majeure est la sécurité des données.
+
+C’est évidemment le câble réseau en cuivre qu’il faut privilégier ici. Les 2 machines devront donc être équipées d’une carte réseau cuivre. Heureusement, le client vous a assuré que c’était déjà le cas.
+
+La fibre optique n’aurait aucun sens ici pour une distance si courte. Le client veut que les données soient échangées en toute sécurité et il n’a pas de contraintes de mobilité. Vous n’avez aucun intérêt à utiliser une liaison sans fil.
+
+Simulez l’architecture sur Packet Tracer
+
+Avant d’aller faire l’installation sur place, vous décidez de simuler l’architecture sous Packet Tracer. Je vous montre comment faire dans la vidéo ci-dessous.
+
+Lorsque que vous voulez utiliser des câbles en cuivre à paires torsadées, faites attention car il en existe 2 types : les câbles droits et les câbles croisés. Leur différence vient simplement du fait que les 8 fils qui composent ces câbles sont organisés dans un ordre différent.
+
+D’accord ! Lequel dois-je utiliser dans quel cas, du coup ?
+
+  - Un câble croisé doit être utilisé pour relier directement 2 équipements terminaux entre eux. Par exemple, un 
+    PC avec un PC, un PC avec une imprimante ou un PC avec un serveur.
+
+  - Les câbles droits seront utilisés dès qu’on a affaire à des réseaux intégrant des équipements 
+    d’interconnexion que nous allons voir dans le chapitre suivant.
+
+La différence physique entre les 2 vient simplement de l’ordre des 8 fils à l’intérieur du câble. Dans le câble droit, les 8 fils sont dans le même ordre aux 2 extrémités du câble, alors que ce n’est pas le cas pour le câble croisé :
+
+À vous de jouer !
+Maintenant que vous avez vu comment raccorder deux machines, à votre tour de simuler l’architecture sur Packet Tracer ! Réalisez sur Packet Tracer l’architecture demandée par le client, en choisissant le matériel et les câbles appropriés.
+
+Corrigé
+
+ Vous pouvez consulter le corrigé pour vérifier votre travail.
+
+Simulez la connexion d'un PC supplémentaire sur Packet Tracer
+
+Quelques jours plus tard, le client vous rappelle. Il vient d’accueillir son premier employé et ce dernier a également besoin d’accéder au serveur de stockage depuis son PC portable. Lorsque vous essayez de connecter le nouveau PC au serveur sur Packet Tracer, un message vous indique qu’il n’y a pas de ports disponibles !
+
+En effet, il n’y a qu’un seul port RJ45 sur le serveur puisqu’il n'y a qu'une seule carte réseau.
+
+2 solutions sont alors possibles :
+
+ - Ajouter une carte réseau supplémentaire à votre serveur.
+
+Mais imaginez qu’un 3ème employé soit recruté et qu’il ait aussi besoin d’accéder au serveur : il faudrait ajouter une nouvelle carte réseau. Le serveur aurait au final autant de cartes réseau et de câbles qu’il y a d’employés : ce n’est pas une solution possible à grande échelle.
+
+ - Ajouter un équipement d’interconnexion à votre réseau : c’est cette option qu’il vous faut privilégier. 
