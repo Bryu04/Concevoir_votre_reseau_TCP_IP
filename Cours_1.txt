@@ -426,3 +426,26 @@ En effet, il n’y a qu’un seul port RJ45 sur le serveur puisqu’il n'y a qu'
 Mais imaginez qu’un 3ème employé soit recruté et qu’il ait aussi besoin d’accéder au serveur : il faudrait ajouter une nouvelle carte réseau. Le serveur aurait au final autant de cartes réseau et de câbles qu’il y a d’employés : ce n’est pas une solution possible à grande échelle.
 
  - Ajouter un équipement d’interconnexion à votre réseau : c’est cette option qu’il vous faut privilégier. 
+
+En résumé
+
+- Pour raccorder entre elles 2 machines, vous pouvez utiliser des câbles réseau en cuivre à paires torsadées, ou 
+  câbles dits Ethernet, des fibres optiques, ou utiliser une liaison sans fil.
+
+- Choisissez vos supports de transmission en fonction de l’environnement physique dans lequel sont les machines.
+
+- La carte réseau présente sur chaque machine se raccorde au support de communication via un port, ou via une 
+  antenne pour les liaisons sans fil. Elle convertit le message avant de l’envoyer sur ce support.
+
+- La conformité du matériel réseau est garantie par des normes :
+
+    - la norme IEEE 802.3 ou “Ethernet” pour les réseaux câblés ;
+
+    - la norme IEEE 802.11 pour les réseaux sans fil (WLAN).
+
+- Si vous utilisez une liaison sans fil, c’est la norme de Wi-Fi (802.11) qui sera utilisée. 
+
+Vous avez raccordé les deux 2 machines de l’entreprise Tinos entre elles, bravo ! Rendez-vous au prochain chapitre pour ajouter un équipement d’interconnexion à votre réseau.
+
+#################################################################################################################
+
