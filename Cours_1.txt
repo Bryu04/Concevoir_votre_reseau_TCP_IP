@@ -255,3 +255,121 @@ Vous avez découvert l'interface de Packet Tracer, bravo ! Rendez-vous dans le c
 
 #################################################################################################################
 
+Reliez deux machines entre elles
+
+Identifiez les émetteurs-récepteurs
+
+Avant de créer un réseau sous Packet Tracer, vous devez identifier les éléments que vous devez mettre en réseau.
+
+Commençons ici par présenter les équipements qui initient la communication : les machines. Ces dernières sont les interlocuteurs, émetteurs et récepteurs des messages.
+
+J’emploie volontairement le mot machine, terme très générique car il comprend :
+
+  - les ordinateurs, tablettes, smartphones que vous utilisez au quotidien ;
+
+  - les serveurs sur lesquels vous stockez, hébergez, consultez des informations ;
+
+  - les téléphones fixes qui sont désormais des terminaux numériques au même titre qu’un ordinateur ;
+
+  - les imprimantes, photocopieuses ou autres matériels de numérisation ;
+
+  - les objets connectés : réfrigérateurs, fours, voitures.
+
+Effectivement, ce terme regroupe beaucoup d'éléments ! Quel est le point commun entre toutes ces machines ?
+
+Leur point commun, c’est leur capacité à traduire un message humain (voix, image, vidéo, texte) en message numérique, ou langage binaire.
+
+Le langage binaire est le langage utilisé par les machines pour compter et communiquer. Nous autres humains, utilisons plutôt l’alphabet qui comporte 26 caractères, alors que le binaire n’en comporte que 2 : le “0” et le “1”. On reparlera du binaire plus tard dans le cours.
+
+Une fois le message converti en numérique (ou numérisé), il sera transféré vers une autre machine en fonction de l’usage (pour échanger des données, par exemple). Pour ce faire, il nous faut un support de communication.
+
+Déterminez le bon support de communication
+
+Lorsque vous souhaitez faire le trajet Paris-Strasbourg, vous utilisez un support de communication : la route. Sans cela vous n'iriez nulle part. Vous pouvez même passer par des chemins, des autoroutes, des rails ou même les airs. Il y a donc plusieurs supports de communication possibles.
+
+Identifiez les différents types de supports de communication
+
+Dans le monde des réseaux, il existe 3 types de supports de communication :
+
+  - le câble en cuivre, dont le plus utilisé est le câble à paires torsadées ;
+
+  - le câble optique ou fibre optique ;
+
+  - l’air, si on souhaite communiquer sans fil. 
+
+Le câble en cuivre à paires torsadées peut également s’appeler “câble réseau”, “câble Ethernet” ou encore “câble RJ45”. Ces dénominations ne sont pas tout à fait correctes, mais les professionnels ont pris l’habitude de les utiliser dans la pratique. La plupart du temps, elles désignent bien le câble à paires torsadées.
+
+Prenez en compte différents paramètres pour choisir votre support de communication
+Vous choisirez votre support en fonction de plusieurs paramètres :
+
+  - le type d’équipement à raccorder : PC, serveur, téléphone, tablette… ;
+
+  - la distance qui sépare 2 équipements entre eux ;
+
+  - l’environnement extérieur : perturbation, humidité... ;
+
+  - l’usage : mobilité des usagers, débits.
+
+Le tableau ci-dessous vous aidera à y voir plus clair.
+
+Le support le plus couramment utilisé est le câble réseau en cuivre à paires torsadées. Il est compatible avec la majorité des équipements, offre de très bons débits et une très bonne sécurité. C’est un câble solide et peu coûteux. Il est idéal pour connecter des employés qui travaillent sur des postes fixes à leur bureau.
+
+En revanche, il ne sera pas adapté si vos équipements sont séparés de plus de 100 m, ni si votre réseau est soumis à beaucoup de rayonnement électromagnétique. Dans ces cas-là, vous devrez privilégier la fibre (ou câble) optique. Du fait des contraintes liées à leur fragilité, les fibres optiques sont très rares dans les installations domestiques. Mais il est courant de voir des serveurs d’entreprise connectés par fibre optique, et sur les réseaux MAN et WAN, c’est le support de transmission privilégié.
+
+Enfin, si vous souhaitez apporter à vos usagers une certaine mobilité en leur évitant d’utiliser des câbles, privilégiez les liaisons sans fil. Les réseaux des universités choisissent toujours ce type de liaison car les étudiants ont besoin de se connecter partout sur le campus. Attention cependant : les liaisons sans fil sont moins sécurisées que les liaisons filaires.
+
+De manière générale, dans la plupart des cas, dès que vous avez affaire à des machines, c’est le câble réseau en cuivre à paires torsadées, dit câble “Ethernet”, qui sera utilisé.
+
+Raccordez vos machines au support choisi
+
+Maintenant que vous avez choisi votre type de support de communication, vous pouvez l’utiliser pour relier vos machines.
+
+Super, comment je fais alors ?
+
+Identifiez la carte réseau de votre machine
+
+Pour cela, vérifiez que vos machines sont équipées d’une carte ou interface réseau. C’est une carte électronique munie d’un port pour y connecter le support choisi précédemment.
+
+Dans la majorité des cas, une carte réseau sera déjà présente sur la machine, car il s’agit d’un périphérique ou composant d’un ordinateur aujourd’hui indispensable, au même titre qu’une carte son ou une carte graphique. Si ce n’est pas le cas, il va falloir équiper votre machine.
+
+Si vous travaillez sur un réseau sans fil, vous n’aurez rien à connecter physiquement. L’interface réseau jouera dans ce cas le rôle d’une antenne. Nous reviendrons là-dessus plus tard.
+
+Mais alors… Comment je fais pour trouver les cartes réseaux de mon ordinateur ?
+
+Rassurez-vous ! Vous pouvez afficher la/les carte(s) réseau de votre ordinateur très facilement. Si vous êtes sous Windows 10 :
+
+Ouvrez la fenêtre “Exécuter” avec le raccourci clavier Windows + R.
+
+Entrez “ncpa.cpl” et validez.
+
+Une fenêtre s’affiche avec toutes les “Connexions réseau”, c’est-à-dire les cartes ou interfaces réseau présentes sur votre machine :
+
+Le rôle de la carte réseau
+
+Le rôle de la carte réseau est de transformer les données binaires à envoyer, en électricité, lumière ou ondes électromagnétiques, afin qu’elles puissent voyager sur le support de transmission choisi.
+
+Les différents types de cartes réseau
+Chaque type de carte réseau est associé à un port et à un support de transmission, tout cela étant régi par des normes. 
+
+Une norme ? De quoi parle-t-on exactement ?
+
+Les normes réseaux sont comme des gros catalogues qui contiennent les spécificités techniques qui doivent être respectées pour fabriquer le matériel réseau. Elles sont difficiles à appréhender, mais indispensables pour assurer l’uniformité du matériel et des communications entre équipements. Ces normes jouent aussi un rôle de cahier des charges, puisque les constructeurs doivent les respecter pour obtenir l’autorisation de mise sur le marché de leurs équipements.
+
+Voici un récapitulatif spécifique aux réseaux de type LAN dans le tableau suivant :
+
+La norme régissant les réseaux LAN et MAN porte le joli nom de IEEE 802. Elle contient tout un ensemble de sous-normes pour des catégories de réseaux plus spécifiques.
+
+Et si je décide d’utiliser une communication sans fil ?
+
+Les liaisons sans fil sont majoritairement utilisées pour apporter de la mobilité et éviter l’utilisation des câbles. La norme la plus utilisée pour les communications au sein d’un réseau WLAN (Wireless Local Area Network), c’est-à-dire d’un réseau local sans fil, s’appelle Wi-Fi ou IEEE 802.11. Du point de vue de l'utilisateur, le Wi-Fi n’apporte que des avantages. Mais d’un point de vue global, il faut quand même nuancer cette affirmation.
+
+Ah bon, quel est le problème alors ?
+
+Le problème majeur des communications sans fil est la sécurité. En Wi-Fi, les messages transitent dans l’air, ce qui veut dire que potentiellement n’importe qui pourra les lire. Pour éviter ce désagrément, des mécanismes de chiffrement ont été mis en place. Ces mécanismes font intervenir l’usage d’une clé de chiffrement type WPA (pour Wi-Fi Protected Access) lors de la connexion.
+
+Si votre réseau est sécurisé par une clé de chiffrement, les messages qui transitent deviennent indéchiffrables pour des machines tierces. C’est donc un mécanisme indispensable à mettre en place dès que l’on souhaite utiliser le Wi-Fi.
+
+Si vous optez pour les technologies sans fil, soyez vigilant ! La mobilité des usagers se fait toujours au détriment de la sécurité et de la fiabilité.
+
+Créez un réseau simple entre 2 machines
+
