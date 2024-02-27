@@ -146,4 +146,28 @@ Affectez les adresses IP aux 3 machines du client et testez la communication.
 
 Vous devez générer un paquet sur le PC fixe vers le serveur, et vous assurer qu’il arrive à destination.
 
+Corrigé
+
+Vous avez réussi à créer des communications au sein d’un réseau local. Bravo !
+
+Grâce à l’adresse MAC de vos machines, le switch est capable d’identifier d’où vient un message et de l’envoyer dans la bonne direction, c’est-à-dire sur le bon port.
+
+Alors maintenant c’est bon ? Mes machines peuvent communiquer avec n’importe quelle autre machine et communiquer vers Internet ?
+
+Eh non justement ! Pour le moment, vous ne pouvez faire communiquer des machines que dans un réseau local.
+
+Pour que vos machines aient accès à Internet ou simplement à un autre réseau, il faut que les paquets puissent traverser les réseaux. Et pour cela, l’adresse MAC ne suffit pas. Il va vous falloir un autre type d’adresse qu’on a un peu évoqué et utilisé : l’adresse IP.
+
+En résumé
+
+- Les communications au sein d’un réseau local se font grâce à l’adresse MAC. 
+
+- Le switch, lorsqu’il reçoit un paquet, est capable de déterminer, grâce à l’adresse MAC, sur lequel de ses 
+  ports transmettre le paquet.
+
+- Pour générer un paquet, on a cependant besoin d’affecter une adresse IP aux machines.
+
+Vous avez configuré des communications dans un réseau local : bravo ! Rendez-vous dans le chapitre suivant pour en savoir plus sur l’adresse IP.
+
+#################################################################################################################
 
