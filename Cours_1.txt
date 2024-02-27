@@ -558,3 +558,129 @@ Vous avez créé l'architecture physique de votre réseau : bravo ! :D Prochaine
 
 #################################################################################################################
 
+!!!!!!!!!!!!!!!!!!! QUIZ : Créez l'architecture physique de votre réseau !!!!!!!!!!!!!!!!!!!!!
+
+Compétences évaluées
+Créer l'architecture physique de votre réseau informatique
+
+Question 1
+
+Le réseau de votre domicile (box Internet + postes informatiques et smartphones) est considéré comme : 
+
+- un LAN (o) (B)
+
+- un MAN
+
+- un WAN
+
+"""""""""" Réponse """"""""""""
+Le réseau de votre domicile, comme celui d’une entreprise, est un réseau local, ou LAN (Local Area Network). Les réseaux locaux ne dépassent pas l’échelle d’un bâtiment.
+
+"""""""""""""""""""""""""""""""
+
+Question 2
+
+Vous souhaitez relier le réseau privé de votre entreprise au réseau public de votre opérateur. Quel équipement devez-vous utiliser pour connecter ces 2 réseaux entre eux ?
+
+- Un switch
+
+- Un routeur (o) (B)
+
+- Un hub
+
+"""""""""" Réponse """"""""""""
+Dans ce cas, vous devrez utiliser un routeur. Ce dernier permet de connecter 2 réseaux. En revanche, le switch et le hub servent à connecter des équipements terminaux.
+
+"""""""""""""""""""""""""""""""
+
+Question 3
+
+Vous souhaitez acheter du matériel pour créer un réseau local sans fil dans votre entreprise. À quelle norme devra répondre le matériel que vous allez acheter ? 
+
+- IEEE 802.3
+
+- IEEE 802.11 (o) (B)
+
+- IEEE 802.5
+
+"""""""""" Réponse """"""""""""
+Les réseaux sans fil dans les LAN, appelés aussi WLAN, sont régis par la norme 802.11 (Wi-Fi). 802.3 est la norme régissant les réseaux câblés, et 802.5 celle régissant les réseaux en anneau.
+
+"""""""""""""""""""""""""""""""
+
+Question 4
+
+Vous arrivez dans un local technique où sont installés les équipements réseau de votre entreprise. En regardant dans la baie de brassage, c’est-à-dire l'armoire qui contient tous les équipements réseau, vous apercevez un équipement rectangulaire avec une vingtaine de ports RJ45 qui clignotent en façade. Quel est cet équipement ? 
+
+- Le serveur
+
+- Le switch (o) (B)
+
+- Le routeur 
+
+"""""""""" Réponse """"""""""""
+Cet équipement est un switch. Le switch peut avoir jusqu’à 96 ports physiques, alors que le routeur n’en a souvent que 2 ou 3. Le serveur, lui, n’aura souvent qu’un seul port réseau.
+
+"""""""""""""""""""""""""""""""
+
+Question 5
+
+Vous devez concevoir un réseau qui sera déployé dans un environnement soumis aux ondes électromagnétiques. Quel support de communication devez-vous privilégier ?
+
+- Un câble de cuivre à paires torsadées
+
+- Un câble optique (o) (B)
+
+- Une liaison sans fil 
+
+"""""""""" Réponse """"""""""""
+Un câble (ou fibre) optique est le plus adapté dans ce cas car le signal lumineux, contrairement aux autres signaux, n’est pas perturbé par les ondes électromagnétiques.
+
+"""""""""""""""""""""""""""""""
+
+Question 6
+
+Dans le jargon des entreprises, vous entendrez souvent parler de câble Ethernet ou de port Ethernet. Mais qu’est-ce qu’Ethernet, réellement ?
+
+- La norme régissant les réseaux câblés (B)
+
+- Un type de câble réseau (o) (M)
+
+- Le nom du réseau mondial
+
+"""""""""" Réponse """"""""""""
+Ethernet est la norme qui régit les réseaux câblés. On parle souvent de câble Ethernet pour désigner le câble réseau à paires torsadées, mais il ne s’agit pas de son vrai nom. Ethernet n’est évidemment pas à confondre non plus avec le réseau mondial Internet.
+
+"""""""""""""""""""""""""""""""
+
+Question 7
+
+Lorsque que vous regardez sous une box ADSL, vous verrez souvent apparaître le terme WPA. Mais qu’est-ce que WPA ?
+
+- Une norme qui régit les réseaux Wi-Fi
+
+- Un mécanisme de sécurité dédié aux réseaux Wi-Fi (o) (B)
+
+- Le support de communication dédié aux smartphones
+
+"""""""""" Réponse """"""""""""
+WPA est un mécanisme de sécurité pour les réseaux Wi-Fi. WPA signifie Wi-Fi Protected Access. Il ne s’agit ni d’une norme, ni d’un support de communication. Le terme WPA est inscrit sous votre box pour indiquer qu’elle utilise cette méthode de chiffrement des données lorsque vous souhaitez vous y connecter via Wi-Fi.
+
+"""""""""""""""""""""""""""""""
+
+Question 8
+
+Packet Tracer est un outil qui permet de :
+
+- Simuler la couverture radio des réseaux sans fil dans un bâtiment
+
+- Créer des architectures réseaux virtuelles (o) (B)
+
+- Créer des machines virtuelles
+
+"""""""""" Réponse """"""""""""
+Packet Tracer est l’outil de simulation réseau développé par Cisco pour créer des architectures réseaux et les tester avant de les déployer éventuellement en entreprise.
+
+"""""""""""""""""""""""""""""""
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
