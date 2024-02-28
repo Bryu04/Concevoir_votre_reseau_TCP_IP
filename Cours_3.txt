@@ -175,4 +175,20 @@ Vous avez peut-être remarqué que, dans la fenêtre de configuration du serveur
 
 Nous avons laissé le champ “serveur DNS” libre car nous n’en avons pas sur notre réseau. Mais je vous propose de vous pencher sur ce sujet dans le prochain chapitre !
 
+En résumé
+
+- L’adresse IP est indispensable à toute machine et doit être configurée au préalable.
+
+- Le protocole DHCP permet de distribuer automatiquement des adresses IP de la manière suivante : un client 
+  réclame une adresse IP sur le réseau, le serveur répond en envoyant au client une adresse IP valide.
+
+- Pour configurer cette fonctionnalité, vous devez :
+
+      - préciser au serveur la plage d’adresses IP qu’il peut distribuer ;
+
+      - indiquer au client que sa configuration IP se fait automatiquement.
+
+Vous savez maintenant automatiser l'attribution d'adresses IP grâce au serveur DHCP. découvrez dans le dernier chapitre de ce cours comment faciliter l'identification de vos machines !
+
+#################################################################################################################
 
