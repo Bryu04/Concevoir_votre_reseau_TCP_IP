@@ -1,4 +1,4 @@
-Configurez votre réseau pour assurer la communication
+                                Configurez votre réseau pour assurer la communication
 
 Identifiez votre machine au sein d’un réseau local
 
