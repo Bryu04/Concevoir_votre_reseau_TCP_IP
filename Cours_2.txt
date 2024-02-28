@@ -541,3 +541,37 @@ Vous savez maintenant comment configurer le routage sur une architecture simple 
 
 #################################################################################################################
 
+Indiquez une passerelle par défaut aux équipements terminaux
+
+Nous venons de voir que c’est le routeur, grâce à sa table de routage qui se charge de relayer les paquets d’un réseau vers un autre. Jusque là, nous n’en avons pas eu besoin car nous simulions uniquement des communications au sein d’un même réseau IP. Dans ce contexte, le routeur n’a donc aucune utilité.
+
+Par contre, dès qu’une machine veut envoyer un paquet vers d’autres réseaux, il faut lui préciser l’adresse IP du routeur ou passerelle qui va relayer le paquet  vers son réseau de destination. Si on reprend le réseau précédent, il ne reste donc plus qu’à indiquer aux 3 PC quelle sera leur passerelle par défaut.
+
+Machine            Interface de sortie             Passerelle par défaut
+
+PC0                192.168.30.1                    192.168.30.254
+
+PC1                192.168.10.1                    192.168.10.254
+
+PC2                192.168.20.1                    192.168.20.254
+
+Rejoignez-moi dans la vidéo ci-dessous, je vais vous montrer comment faire !
+
+Veillez toujours à indiquer la passerelle par défaut à vos équipements terminaux. Cela peut paraître assez futile lorsque vos PCs n’ont qu’une seule interface réseau car il n’y qu’une seule “porte de sortie possible” pour les paquets. Mais souvenez-vous que même votre propre PC peut avoir plusieurs interfaces réseau. Préciser une passerelle par défaut devient alors indispensable pour indiquer quelle interface réseau de sortie utiliser par défaut pour envoyer un paquet.
+
+Configurez vos équipements avec Cisco Packet Tracer
+
+Ça y est ! Vous avez enfin toutes les clés en main pour mener à bien votre mission auprès de l'auto-école Tinos.
+
+Voilà l’architecture là où vous l’avez laissée :
+
+A cette étape, vous avez :
+
+  - créé l’architecture du réseau avec tous les équipements et câbles nécessaires
+
+  - attribué une adresse IP à tous les équipement terminaux
+
+La prochaine étape ? Configurer les PC de l’entreprise Cyclade pour qu’ils puissent accéder au serveur de l'auto-école Tinos.
+
+À vous de jouer !
+
