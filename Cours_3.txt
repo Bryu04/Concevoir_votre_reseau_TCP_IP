@@ -149,3 +149,30 @@ Ses employés font des allers-retours réguliers pour démarcher des collectivit
 
 À vous de jouer !
 
+- Ajoutez un serveur DHCP à l’architecture de Cyclade sous l’adresse IP 192.168.100.250/24.
+
+- Ajoutez 2 PC portables au réseau.
+
+- Configurez le serveur DHCP. 
+
+Le réseau utilisé sera le 192.168.100.0/24. Mais attention, 2 postes fixes ont déjà une adresse IP dans le réseau (192.168.100.1 et 192.168.100.2). On ne souhaite pas toucher à la configuration de ces machines.
+
+- Configurez les clients mobiles.
+
+- Vérifiez que les 2 clients mobiles ont bien récupéré une adresse IP
+
+
+Corrigé
+Vous pouvez consulter le corrigé et regarder la vidéo ci-dessous pour vérifier votre travail.
+
+Vous avez peut-être remarqué que, dans la fenêtre de configuration du serveur DHCP, vous pouvez indiquer :
+
+  - la plage d’adresses IP à attribuer aux clients 
+
+  - la passerelle par défaut
+
+  - le serveur DNS
+
+Nous avons laissé le champ “serveur DNS” libre car nous n’en avons pas sur notre réseau. Mais je vous propose de vous pencher sur ce sujet dans le prochain chapitre !
+
+
