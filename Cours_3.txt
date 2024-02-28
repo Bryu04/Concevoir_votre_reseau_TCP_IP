@@ -394,3 +394,138 @@ Nous arrivons au terme du cours sur la création de votre premier réseau. Il y 
 
 #################################################################################################################
 
+!!!!!!!!!!!!!!!!!!!! Quiz : Optimisez votre réseau en ajoutant des services !!!!!!!!!!!!!!!!!!!!!!!!
+
+Compétences évaluées
+
+Optimiser votre réseau informatique en ajoutant des services
+
+Question 1
+
+Vous devez gérer un parc de 100 machines et fournir une adresse IP à chacune d’entre elles. Quelle est la solution la plus rapide ?
+
+- Configurer manuellement les adresses sur chaque machine
+
+- Mettre en place un serveur DHCP (o) (B)
+
+- Mettre en place un serveur DNS
+
+"""""""""""" Réponse """""""""""""""
+La solution la plus efficace est de mettre en place un serveur DHCP qui va distribuer automatiquement des adresses IP aux machines. 
+
+Le serveur DNS, lui, fait la correspondance entre le nom des machines et leur adresse IP.
+
+""""""""""""""""""""""""""""""""""""
+
+Question 2
+
+Lors d’une intervention chez un client, vous vous apercevez que les adresses IP de toutes les machines sont dans un réseau IP qui n’existe plus. Un serveur DHCP est présent et fonctionnel dans l’architecture. Que devez-vous faire ?
+
+- Redémarrer toutes les machines du réseau (o) (M)
+
+- Mettre à jour la plage d’adresses attribuées par le serveur DHCP (B)
+
+- Supprimer le serveur DHCP 
+
+"""""""""""" Réponse """""""""""""""
+Si des adresses sont automatiquement attribuées dans une mauvaise plage d’adresses, c’est que cette plage est erronée dans la configuration du serveur DHCP. Il faut donc la mettre à jour.
+
+Redémarrer les machines ou supprimer le serveur DHCP ne corrigeront pas le problème.
+
+""""""""""""""""""""""""""""""""""""
+
+Question 3
+
+Un collègue du service Comptabilité vous appelle pour vous signaler qu’il n’a plus Internet. Un message lui indique sur son écran que l’adresse IP de sa machine est déjà utilisée. Après investigation, vous vous apercevez que l’ordinateur a une adresse IP fixe alors qu’un serveur DHCP est présent sur le réseau. Quelle action pourrait résoudre ce problème d’adresse IP déjà utilisée ?
+
+- Redémarrer la machine
+
+- Vérifier la configuration du serveur DHCP
+
+- Basculer en attribution automatique de l’adresse IP (o) (B)
+
+"""""""""""" Réponse """""""""""""""
+Pour résoudre ce problème, il faut basculer la machine en mode d’attribution automatique de l’adresse IP. Lorsqu’un serveur DHCP est présent sur un réseau, sauf cas particuliers, il n’y aucune raison pour qu’un poste utilisateur ait une adresse IP fixée manuellement. Cela peut causer des problèmes, car le serveur DHCP n’a pas attribué cette adresse et considère qu’elle est libre. Il peut donc l’attribuer à une autre machine.
+
+""""""""""""""""""""""""""""""""""""
+
+Question 4
+
+Vous configurez un serveur DHCP pour une grande entreprise, et vous vous posez la question de la durée du bail à configurer. Vous décidez de fixer ce bail à 3 600 secondes. Qu’est-ce que cela signifie ?
+
+- Toutes les 3 600 secondes, le serveur va retirer toutes les adresses allouées aux machines
+
+- Chaque machine libérera automatiquement son adresse IP au bout de 3 600 secondes 
+
+- Chaque machine devra renouveler son bail toutes les 3 600 secondes (o) (B)
+
+"""""""""""" Réponse """""""""""""""
+Chaque machine devra renouveler son bail toutes les 3 600 secondes auprès du serveur. Ce n’est pas le serveur qui retire l’adresse IP aux machines une fois le bail expiré, mais bien les machines elles-mêmes si leur bail n’a pas été renouvelé. L’adresse IP allouée a donc une durée de validité qui correspond à la durée de son bail.
+
+""""""""""""""""""""""""""""""""""""
+
+Question 5
+
+Vous intervenez dans une entreprise où les ordinateurs sont très anciens. Le client n'arrive pas à se connecter au site Wikipedia avec une version obsolète du navigateur Firefox. Dans cette situation, vous savez qu’il faut entrer dans la barre d’adresse l’URL complète du site qu’on souhaite atteindre. Que devez-vous entrer dans la barre d’adresse ?
+
+- l’adresse IP du serveur web Wikipedia
+
+- https://www.wikipedia.fr (o) (B)
+
+- wikipedia.fr
+
+"""""""""""" Réponse """""""""""""""
+Il faut entrer https://www.wikipedia.fr.
+
+l’URL (Uniform Resource Locator) sert à envoyer une requête vers une machine. Elle est composées au minimum de 2 informations : le protocole utilisé pour envoyer la requête (souvent HTTP ou HTTPS), et le nom de domaine (www.wikipedia.fr) qui renvoie à une ou plusieurs machines. Avec les anciens navigateurs web, il fallait obligatoirement écrire l’URL complète pour accéder à un site. Désormais, les navigateurs se contentent du nom de domaine.
+
+""""""""""""""""""""""""""""""""""""
+
+Question 6
+
+Sur votre poste, vous arrivez à faire un ping vers l’adresse publique 104.22.65.200, mais vous n’arrivez pas à faire un ping vers www.openclassrooms.com. Les 2 adresses renvoient pourtant au même serveur. Pourquoi ?
+
+- La commande ping s’utilise uniquement avec des adresses IP
+
+- Vous n’êtes pas connecté à Internet ou le site est inaccessible
+
+- Vous avez un problème avec le serveur DNS (o) (B)
+
+"""""""""""" Réponse """""""""""""""
+Vous avez un problème avec le serveur DNS. Si le ping vers l’adresse IP fonctionne, cela signifie que vous êtes bien connecté à Internet. Le problème vient donc de la résolution du nom, et donc du serveur DNS.
+
+""""""""""""""""""""""""""""""""""""
+
+Question 7
+
+Vous avez configuré un serveur DNS sur un réseau composé de 3 PC nommés pc1, pc2 et pc3.
+
+Depuis le pc1, vous parvenez à faire des pings vers les adresses IP des pc2 et 3. La commande “ping pc2” fonctionne aussi correctement, mais pas la commande “ping pc3”. Comment pouvez-vous résoudre le problème ?
+
+- En réinstallant le serveur DNS de votre réseau
+
+- En ajoutant dans la configuration du serveur DNS les correspondances Nom-IP manquantes (o) (B)
+
+- En supprimant dans la configuration du serveur DNS les correspondances Nom-IP présentes
+
+"""""""""""" Réponse """""""""""""""
+Pour résoudre le problème, vous devez ajouter les correspondances Nom-IP sur votre serveur DNS. Si la résolution fonctionne pour pc2 et pas pc3, c’est que le serveur est fonctionnel. Il suffit de lui indiquer la correspondance entre l’IP du PC3 et le nom “pc3”.
+
+""""""""""""""""""""""""""""""""""""
+
+Question 8
+
+Vous intervenez sur un réseau équipé de serveurs DNS et DHCP fonctionnels. Lorsque vous connectez une nouvelle machine au réseau, elle récupère une adresse IP automatiquement. Par contre, quand vous vérifiez sa configuration, vous remarquez qu’aucun serveur DNS par défaut n’est spécifié. Vous rencontrez ce problème pour toutes les nouvelles machines du réseau. Que pouvez-vous faire ?
+
+- Aller dans la configuration des machines et renseigner l’adresse IP du serveur DNS
+
+- Désactiver le serveur DHCP
+
+- Modifier la configuration du serveur DHCP en lui précisant le serveur DNS par défaut (o) (B)
+
+"""""""""""" Réponse """""""""""""""
+Pour résoudre ce problème, vous devez modifier la configuration du serveur DHCP. En plus d’attribuer des adresses IP, le serveur DHCP peut fournir une configuration aux machines. Dans cette configuration, on trouve notamment l’adresse IP du serveur DNS à utiliser sur le réseau. Pour activer cette fonctionnalité, il suffit de renseigner l’adresse IP du serveur DNS, directement sur le serveur DHCP.
+
+""""""""""""""""""""""""""""""""""""
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
