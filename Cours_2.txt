@@ -596,3 +596,18 @@ Chaque équipement réseau fonctionne sur un niveau de compréhension bien diff�
 
 Un message qui transite sur le réseau contient beaucoup d’informations qui vont permettre son acheminement. Chaque équipement du réseau comprend certains types d’informations contenues dans ce message.
 
+En résumé
+
+- Pour qu’une machine envoie des paquets vers un réseau externe, il faut lui indiquer l’adresse IP de sa 
+  passerelle par défaut, c’est-à-dire l’adresse IP du routeur qui va relayer les paquets.
+
+- Sous Packet Tracer, il suffit de renseigner le champ “Default Gateway” (Passerelle par défaut) dans la 
+  configuration de la machine.
+
+- Tous les paquets envoyés par cette machine et à destination d’un réseau externe seront alors envoyés à la 
+  passerelle qui se chargera de les router correctement.
+
+Pour y voir plus clair, une classification de ces différents types d’information existe et c’est ce que nous allons voir dans le prochain chapitre.
+
+#################################################################################################################
+
