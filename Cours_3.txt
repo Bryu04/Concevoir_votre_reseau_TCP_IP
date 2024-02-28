@@ -319,3 +319,38 @@ Vous connaissez maintenant les avantages d'un serveur DNS. Découvrez comment le
 
 #################################################################################################################
 
+Déployez un serveur DNS sous Packet Tracer
+
+Je vais à présent vous montrer comment configurer le service DNS sur un réseau LAN composé de 2 PC et d’un serveur DNS, reliés par un switch :
+
+Configurez le serveur
+
+Pour configurer le serveur, il faut :
+
+- activer la fonction DNS ;
+
+- remplir la table de correspondance Nom-IP avec 3 entrées :
+
+Nom              Adresse IP
+
+pc1              192.168.0.1
+
+pc2              192.168.0.2
+
+serveur_dns      192.168.0.250
+
+Lorsque vous configurez des noms de DNS, respectez la règle d’or suivante : ne mettez pas de caractères spéciaux, de majuscules ou d’espaces dans le nom de vos machines. Cela vous évitera bien des problèmes ! Vous pouvez consulter la norme officielle en anglais pour en savoir plus !
+
+Configurez les clients
+
+Pour configurer les clients, il suffit de renseigner l’adresse IP du serveur DNS.
+
+Je vous explique tout cela dans la vidéo ci-dessous !
+
+Ajoutez un serveur DNS à un réseau existant
+
+L’entreprise Cyclade est maintenant dotée d’un serveur DHCP. Le gérant envisage de créer un site web interne dans le but de faire l’inventaire des pièces de vélo disponibles. Vous lui proposez d’ajouter la fonctionnalité DNS. De cette manière, il sera beaucoup plus simple pour les employés d’accéder au site via un nom plutôt que via une IP.
+
+À vous de jouer !L’entreprise Cyclade est maintenant dotée d’un serveur DHCP. Le gérant envisage de créer un site web interne dans le but de faire l’inventaire des pièces de vélo disponibles. Vous lui proposez d’ajouter la fonctionnalité DNS. De cette manière, il sera beaucoup plus simple pour les employés d’accéder au site via un nom plutôt que via une IP.
+
+À vous de jouer !
