@@ -575,3 +575,24 @@ La prochaine étape ? Configurer les PC de l’entreprise Cyclade pour qu’ils 
 
 À vous de jouer !
 
+Reprenez votre architecture et réalisez les étapes suivantes :
+
+   1. Activez les interfaces réseau du routeurs
+
+   2. Assignez-leur une adresse IP
+
+   3. Renseignez la passerelle par défaut sur tous vos équipements terminaux
+
+   4. Testez la communication entre les 2 machines de Cyclade et le serveur de l'auto-école Tinos. Vous pouvez 
+      utiliser le ping ou la simulation de paquets
+
+Corrigé 
+
+Vous pouvez consulter le corrigé et regarder la vidéo ci-dessous pour vérifier votre travail.
+
+Dans cet exercice, vous avez affecté des adresses IP à tous les équipements sauf aux switches. C’est tout à fait normal, car le switch ne comprend pas les adresses IP, il ne comprend que les adresses MAC. 
+
+Chaque équipement réseau fonctionne sur un niveau de compréhension bien différent. Ces niveaux de compréhension ou “couches” sont tous représentés dans ce qu’on appelle le modèle OSI et c’est l’objet du prochain chapitre.
+
+Un message qui transite sur le réseau contient beaucoup d’informations qui vont permettre son acheminement. Chaque équipement du réseau comprend certains types d’informations contenues dans ce message.
+
