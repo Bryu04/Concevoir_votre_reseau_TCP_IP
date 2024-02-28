@@ -725,3 +725,180 @@ Vous savez maintenant créer et configurer un réseau pour qu’il soit fonction
 
 #################################################################################################################
 
+!!!!!!!!!!!!!!!!!!!!!!! Configurez votre réseau pour assurer la communication !!!!!!!!!!!!!!!!!!!!
+
+Compétences évaluées
+Configurer votre réseau pour assurer la communication
+
+Question 1
+
+Lorsque vous regardez au dos d’un équipement réseau, vous voyez inscrit ceci : 00:37:6C:E2:EB:62. De quoi peut-il s’agir ?
+
+- Du numéro de série de l’équipement 
+
+- De l’adresse IPv4
+
+- De l’adresse IPv6
+
+- De l’adresse MAC de l’équipement (o) (B)
+
+"""""""""""" Réponse """""""""""""
+L’inscription est écrite en hexadécimal, et sous la forme de 6 octets. Il s’agit donc d’une adresse MAC. Une adresse IPv6 s’écrit aussi en hexadécimal, mais elle est beaucoup plus longue (16 octets). Une adresse IPv4 s’écrit en décimal sur seulement 4 octets.
+
+""""""""""""""""""""""""""""""""""
+
+Question 2
+
+Vous souhaitez bloquer l’accès à Internet du smartphone d’un des membres de votre famille. Pour cela, vous devez intervenir sur votre box ADSL ou fibre. De quel identifiant allez-vous avoir besoin pour bloquer définitivement l’accès à Internet ?
+
+
+- L’adresse IP du smartphone (o) (M)
+
+- L’adresse MAC du smartphone (B)
+
+- Le nom d’utilisateur du smartphone
+
+"""""""""""" Réponse """""""""""""
+Vous utiliserez l’adresse MAC pour bloquer définitivement l’accès à Internet de ce smartphone. En effet, l’adresse MAC est associée de manière permanente à une machine (ici un smartphone), donc bloquer une adresse MAC revient à bloquer une machine.
+
+L’adresse IP n’est pas unique et peut changer. Le nom d’utilisateur peut lui aussi être modifié facilement par l’utilisateur. 
+
+""""""""""""""""""""""""""""""""""
+
+Question 3
+
+Vous vérifiez la configuration de l’adresse IP d’une machine (10.0.23.111). Vous remarquez que son masque est indiqué sous la forme : 255.0.0.0. Comment ce masque pourrait-il s’écrire en notation CIDR ?
+
+
+- /8 (o) (B)
+
+- /16
+
+- /24
+
+"""""""""""" Réponse """""""""""""
+Réponse : /8. 
+
+La notation CIDR (Classless Inter-Domain Routing) est une manière d’écrire un masque réseau de manière plus simple.
+
+Pour obtenir la notation CIDR, on convertit 255.0.0.0 en binaire ; on obtient : 11111111.00000000.00000000.00000000.
+
+C’est un masque dont les 8 premiers bits sont à 1, il peut donc s’écrire /8.
+
+""""""""""""""""""""""""""""""""""
+
+Question 4
+
+Vous arrivez dans une entreprise et vous devez ajouter un nouveau PC fixe dans un bureau. Les adresses IP sur chaque poste sont configurées manuellement.
+
+Vérifiez l’adresse IP des 2 machines voisines qui sont 172.16.123.111/16 et 172.16.123.1/16. Dans quelle plage d’adresses pouvez-vous théoriquement piocher une IP pour l’affecter à votre nouveau PC fixe ?
+
+
+- 172.16.123.1 à 172.16.123.254
+
+- 172.16.0.1 à 172.16.255.254 (o) (B)
+
+- 172.16.124.1. à 172.16.122.4.254
+
+"""""""""""" Réponse """""""""""""
+Vous pouvez affecter des adresses comprises entre 172.16.0.1 et 172.16.255.254. Vous pouvez déterminer la bonne plage grâce au masque. Ici le masque indique que les 16 premiers bits définissent le réseau, donc les 16 derniers bits sont pour les adresses IP des machines. Le réseau est 172.16.0.0. La première adresse attribuable est donc 172.16.0.1. La dernière est 172.16.255.254.
+
+""""""""""""""""""""""""""""""""""
+
+Question 5
+
+Par défaut, les box Internet attribuent souvent aux machines des adresses dans le réseau 192.168.0.0/24. Combien de machines, en plus de la box, peuvent se connecter à un réseau et récupérer une adresse IP ?
+
+
+- 256
+
+- 254
+
+- 253 (o) (B)
+
+"""""""""""" Réponse """""""""""""
+253 machines peuvent se connecter à un réseau et récupérer une adresse IP. D’après son masque, le réseau 192.168.0.0/24 est défini sur ses 24 premiers bits, il en reste donc 8 pour attribuer des adresses aux machines. 2^8 = 256 adresses, mais :
+
+  - la première adresse, 192.168.0.0, est l’adresse réseau (non attribuable) ;
+  - la dernière adresse, 192.168.0.255, est l’adresse de diffusion (non attribuable) ;
+  - La box a forcément une adresse IP dans ce réseau, souvent 192.168.0.254.
+
+Il reste donc 256 – 3 = 253 adresses attribuables.
+
+""""""""""""""""""""""""""""""""""
+
+Question 6
+
+Pourquoi l’IPv6 va progressivement remplacer l’IPv4 ?
+
+- Car les adresses IPv6 sont plus simples à retenir
+
+- Car les adresses IPv4 ne sont pas suffisantes (o) (B)
+
+- Car les nouveau équipements réseaux ne sont plus compatibles avec IPv4
+
+"""""""""""" Réponse """""""""""""
+Les adresses IPv4 ne sont pas suffisantes. L’IPv6 est une adresse beaucoup plus longue que l’IPv4 (donc moins facile à retenir), et va permettre d’attribuer une adresse unique à tous les équipements connectés du monde. En attendant, tous les équipements sont rétrocompatibles avec la version 4 d’IP.
+
+""""""""""""""""""""""""""""""""""
+
+Question 7
+
+Vous devez configurer correctement un nouveau PC dans une entreprise avec le schéma d’architecture suivant :
+
+Il y a 2 postes existants qui ont tous les deux accès à Internet. Vous attribuez une adresse IP au 3e poste (le nouveau), mais vous n’arrivez toujours pas à accéder à Internet. Que faites-vous ?
+
+- Vous définissez un nom de machine unique sur ce 3e poste
+
+- Vous renseignez une passerelle par défaut sur ce 3e poste (o) (B)
+
+- Vous redémarrez ce 3e poste pour que la configuration soit prise en compte
+
+"""""""""""" Réponse """""""""""""
+Vous devez renseigner une passerelle par défaut sur ce 3e poste.
+
+Pour aller sur Internet (donc sur des réseaux externes), vos messages doivent traverser des routeurs. Le premier routeur à traverser est celui de  votre architecture réseau : le Router0 sur le schéma. Ce routeur est la “passerelle par défaut” que doivent utiliser les postes informatiques pour envoyer des messages sur Internet. Autrement dit, c’est leur porte de sortie vers les réseaux externes. Il faut donc indiquer sur chaque nouveau poste l’adresse IP de cette passerelle, pour que les messages puissent être acheminés, si besoin, à l’extérieur du réseau local.
+
+""""""""""""""""""""""""""""""""""
+
+Question 8
+
+Vous intervenez pour une entreprise avec un collègue. Et celui-ci vous demande d’aller dans le local technique pour identifier les équipements de niveau 2. De quoi veut-il parler ?
+
+- Des câbles
+
+- Des routeurs
+
+- Des switchs (o) (B)
+
+"""""""""""" Réponse """""""""""""
+Votre collègue parle des switchs. Les équipements de niveau 2 comprennent les règles de la couche 2 du modèle OSI. Ils comprennent et utilisent les adresses MAC. 
+
+Le routeur est un équipement de niveau 3, il utilise les adresses IP. 
+
+Les câbles sont associés à la couche 1 du modèle OSI.
+
+""""""""""""""""""""""""""""""""""
+
+Question 9
+
+Vous devez configurer le PC0 de l’architecture réseau ci-dessous :
+
+Toutes les adresses IP ont déjà été configurées, mais il reste à préciser les passerelles par défaut.
+
+Sur le PC0, quelle passerelle par défaut devez-vous renseigner pour qu’il puisse communiquer avec tous les autres réseaux ?
+
+- 192.168.30.254 (o) (B)
+
+- 1.1.1.1
+
+- 192.168.40.254
+
+"""""""""""" Réponse """""""""""""
+Réponse : 192.168.30.254. La passerelle par défaut est l’adresse IP de l’interface du premier routeur rencontré. 
+
+Pour le PC0, la passerelle par défaut sera l’adresse IP du Router5 : 192.168.30.254.
+
+""""""""""""""""""""""""""""""""""
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
