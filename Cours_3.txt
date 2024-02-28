@@ -382,3 +382,15 @@ Félicitations, vous venez de créer un véritable réseau d’entreprise foncti
 
 Vous n'êtes plus obligés de mémoriser les adresses IP de vos machines, leurs noms suffisent pour communiquer avec elles.
 
+En résumé
+
+- Pour déployer un DNS sous Packet Tracer, vous devez configurer le serveur et les clients
+
+- Pour configurer le serveur, activez la fonction DNS et remplissez la table de correspondance Nom-IP
+
+- Pour configurer les clients, renseignez l’adresse IP du serveur DNS
+
+Nous arrivons au terme du cours sur la création de votre premier réseau. Il y aurait encore beaucoup de notions à aborder, comme les règles pour améliorer la sécurité, isoler le trafic au niveau des switch, et bien d’autres. Le monde des réseaux évolue rapidement. Je vous invite ainsi à vous documenter régulièrement pour devenir un expert dans votre domaine.
+
+#################################################################################################################
+
